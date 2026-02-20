@@ -1,0 +1,37 @@
+.about {
+  width: 90%;
+  margin: auto;
+}
+
+.about article {
+  max-width: 70%;
+  word-wrap: break-word;
+  word-break: keep-all;
+  line-height: 35px;
+  letter-spacing: 1.3px;
+}
+
+/* Cursor effect */
+.typed::after {
+  content: "|";
+  animation: blink 1s infinite;
+  margin-left: 5px;
+}
+
+/* Cursor disappears when typing is done */
+.typed.done::after {
+  content: "";
+}
+
+@keyframes blink {
+
+  0%,
+  50% {
+    opacity: 1;
+  }
+
+  51%,
+  100% {
+    opacity: 0;
+  }
+}

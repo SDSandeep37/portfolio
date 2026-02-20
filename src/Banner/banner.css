@@ -1,0 +1,98 @@
+.introduction {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-image: url("/images/banner.jpg");
+  background-size: cover;
+  height: 90vh;
+}
+
+.introductionContent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  padding: 20px;
+  position: absolute;
+  top: 10%;
+  cursor: pointer;
+  animation: jump 3s ease-in-out infinite both;
+  animation-direction: alternate-reverse;
+  height: 100%;
+  max-width: 70%;
+
+}
+
+.introductionContent h1 {
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-weight: 300;
+
+
+}
+
+.introductionContent h1 span {
+  font-weight: bold;
+  color: var(--red);
+}
+
+@keyframes jump {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: 10%;
+  }
+}
+
+.introductionText {
+  letter-spacing: 1.3px;
+  margin-bottom: 10px;
+  font-weight: 400;
+
+}
+
+.introductionText strong {
+  letter-spacing: 2.4px;
+  text-decoration: underline;
+  color: var(--red);
+  font-weight: bold;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+  .introduction {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .introductionContent {
+    max-width: unset;
+  }
+
+  .introductionContent h1 {
+    text-align: center;
+  }
+
+
+}
+
+@media only screen and (max-width:480px) {
+  .introduction {
+    min-height: 80vh;
+  }
+}

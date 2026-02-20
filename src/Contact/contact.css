@@ -1,0 +1,21 @@
+.contact {
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.contactDetails button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: var(--red);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all ease-in-out 1s;
+}
+
+.contactDetails button:hover {
+  background-color: white;
+  color: var(--red)
+}
