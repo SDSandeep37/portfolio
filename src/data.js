@@ -71,6 +71,48 @@ export const projectDetails = [
     project_link: "https://bollygradtollywood.bollygrad.com/",
     img: "/images/tollywood.jpeg",
   },
+  {
+    id: 13,
+    project_type: "Car Booking",
+    project_link: "https://suder-smart.vercel.app/",
+    img: "/images/suder.jpeg",
+  },
+  {
+    id: 14,
+    project_type: "Coding Mentorship",
+    project_link: "https://skillbridge-sandy-chi.vercel.app/",
+    img: "/images/skillbrigde.jpeg",
+  },
+  {
+    id: 15,
+    project_type: "API Gateway",
+    project_link: "https://flowcharge.vercel.app/",
+    img: "/images/flowcharge.jpeg",
+  },
+  {
+    id: 16,
+    project_type: "AI- Powered Data Analysis",
+    project_link: "https://datavision-eight.vercel.app/",
+    img: "/images/datavision.jpeg",
+  },
+  {
+    id: 17,
+    project_type: "Voice to Text",
+    project_link: "https://voicevault-two.vercel.app/",
+    img: "/images/voicevault.jpeg",
+  },
+  {
+    id: 18,
+    project_type: "Developers Social-App",
+    project_link: "https://sdedit.vercel.app/",
+    img: "/images/sdedit.jpeg",
+  },
+  {
+    id: 19,
+    project_type: "Document Signature",
+    project_link: "https://signflow-three.vercel.app/",
+    img: "/images/signflow.jpeg",
+  },
 ];
 
 export const skills = [
@@ -103,5 +145,15 @@ export const skills = [
     id: 6,
     skillName: "React",
     skillLogo: "/images/react.jpg",
+  },
+  {
+    id: 7,
+    skillName: "Node.js",
+    skillLogo: "/images/node.png",
+  },
+  {
+    id: 7,
+    skillName: "Next.js",
+    skillLogo: "/images/next.png",
   },
 ];
