@@ -113,6 +113,12 @@ export const projectDetails = [
     project_link: "https://signflow-three.vercel.app/",
     img: "/images/signflow.jpeg",
   },
+  {
+    id: 20,
+    project_type: "Smart ERP System",
+    project_link: "https://smartledger-beta.vercel.app/",
+    img: "/images/smartledger.jpeg",
+  },
 ];
 
 export const skills = [
